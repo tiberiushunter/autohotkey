@@ -14,6 +14,22 @@
 
 A repository for my AutoHotKey scripts, it's a collection of scripts I use locally to speed up tasks and be generally lazy.
 
+## Usage
+
+To use these scripts, you'll need to firstly download [AutoHotKey][autohotkey].
+
+Then to run immediately, double click `start.ahk` to start all the scripts within this project.
+
+To have the scripts run at start-up, taken from the [AutoHotKey FAQ][autohotkey-faq]:
+
+1. Copy the `start.ahk` file
+2. Open the Run dialog (`Win+R`)
+3. Type `shell:startup`
+   1. This will take you to the `Start-Up` folder of the current user
+4. Paste as Shortcut
+
+Now the collection of scripts will run each time you log in. :thumbsup:
+
 <!-- LICENSE -->
 ## License
 
@@ -37,6 +53,9 @@ Project Link: [GitHub][project-url]
 
 <!-- Project Specific -->
 [autohotkey-version]: https://img.shields.io/badge/AutoHotKey-1.1.33.09-blue.svg?style=for-the-badge&logo=autohotkey
+[autohotkey]: https://www.autohotkey.com/
+[autohotkey-faq]: https://www.autohotkey.com/docs/FAQ
+
 [project-url]: https://github.com/tiberiushunter/autohotkey
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg?style=for-the-badge
